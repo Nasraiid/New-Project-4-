@@ -1,0 +1,28 @@
+/* ============================================= */
+/*              Common Color                     */
+/* ============================================= */
+
+$defualt-color: #51ddfc;
+$error-color: #e4757a;
+$warning-color: #fd7856;
+$info-color: #927bc1;
+$success-color: #63cc82;
+$primary-color: #58e1c1;
+$white:#fff;
+
+/* Color platte =============*/
+
+$defualt-light: lighten($defualt-color, 15%);
+$error-light: lighten($error-color, 15%);
+$warning-light: lighten($warning-color, 15%);
+$info-light: lighten($info-color, 15%);
+$success-light: lighten($success-color, 15%);
+$primary-light: lighten($primary-color, 15%);
+
+
+
+/* ============================================= */
+/*              Media Querie                    */
+/* ============================================= */
+
+$break-s: 'min-width:768px'; 
